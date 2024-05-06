@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Connect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Space+Grotesk&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* background-color: #ff65a3;  */
+            background-image: url("webbackimg1.jpg");
+            font-family: 'Space Grotesk', sans-serif;
+            color: #fff; /* Ensure text readability on the updated background color */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .outside {
+            background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white overlay */
+            border-radius: 10px; /* Softened edges */
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Black Ops One', cursive;
+            font-size: 4rem;
+            margin-bottom: 20px;
+            color: #fff; /* Updated text color */
+        }
+
+        .inside {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        }
+
+        .logo {
+            width: 150px; /* Adjust as needed */
+            margin-bottom: 30px;
+        }
+
+        button {
+            background-color: #ff65a3; /* Updated button color */
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        button:hover {
+            background-color: #e64d8e; /* Hover effect for visual feedback */
+        }
+    </style>
+</head>
+<body>
+    <div class="outside">
+        <h1>Login</h1><br>
+        <div class="inside">
+            <br><br><img class="logo" src="logo.png" alt="logo"></br></br>
+            <a href="loginstd.html"><button style="margin-top: 30px;">Student</button></a>
+            <a href="loginfaculty.html"><button>Faculty</button></a>
+            <a href="admin/login.php"><button>Admin</button></a>
+        </div>
+    </div>
+</body>
+</html>
